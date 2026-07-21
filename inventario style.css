@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+      height: 100vh;   
+      display: flex;
+      flex-direction: column;
+      justify-content: center;  
+      align-items: center;
+      background: linear-gradient(
+       135deg, 
+              #f2aa25,
+              #E33636,
+              #96492D
+      );
+}
+.logo-login {
+    width: 180px !important;   
+    height: auto !important;  
+    display: block; 
+    margin: 10px auto; 
+}
+
+.login-container {
+    width: 380px;
+    background: rgba(255, 255, 255, 0.92);
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(120, 60, 20, 0.35);
+    text-align: center;
+}
+.login-container img {
+    max-width: 100%; 
+    height: auto;
+}
+    .login-container h1 {
+        color: #d35400;
+        margin-bottom: 10px;
+        font-size: 30px;
+    }    
+    .login-container p {
+        color: #8e5a2a;
+        margin-bottom: 25px;
+     font-size: 15px;
+    }
+    .input-group {
+        text-align: left;
+        margin-bottom: 18px;
+    }
+    .input-group label {
+        display: block;
+        color: #a0522d;
+        font-weight: bold;
+        margin-bottom: 6px;
+    }
+    .input-group input {
+        width: 100%;
+        padding: 13px;
+        border: 2px solid #ffd39b;
+        border-radius: 12px;
+        outline: none;
+        font-size: 15px;
+        background-color: #fffaf3;
+    }
+    .input-group input:focus {
+        border-color: #ff8c42;
+        box-shadow: 0 0 8px rgba(255, 140, 66, 0.4);
+    }
+    .forgot-password {
+      text-align: right;
+      margin-bottom: 22px;
+    }
+    .forgot-password a {
+        text-decoration: none;
+        color: #e67e22;
+        font-size: 14px;
+        font-weight: bold;
+    }
+      .forgot-password a:hover {
+        color: #c0392b;
+        text-decoration: underline;
+    }
+    .btn-login {
+        width: 100%;
+        padding: 14px;
+        border: none;
+        border-radius: 14px;
+        background: linear-gradient(135deg, #ff7e5f, #feb47b);
+        color: white;
+        font-size: 17px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    .btn-login:hover {
+        background: 0 8px 18px rgba(230, 126, 34, 0.45);
+    }
+    .footer-text {
+        margin-top: 22px;
+        font-size: 13px;
+        color: #9c6b3d;
+    }
+    .icon {
+        font-size: 45px;
+        margin-bottom: 10px;
+    }
